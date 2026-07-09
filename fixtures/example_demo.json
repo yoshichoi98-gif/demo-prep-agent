@@ -1,0 +1,74 @@
+{
+  "_comment": "FICTIONAL PLACEHOLDER — replace this file with the real example demo payload from Yoshi before judging page quality. Every field is optional except company.name; the renderer must degrade gracefully when fields are missing.",
+
+  "event": {
+    "id": "gcal_evt_placeholder_001",
+    "title": "Alleviate Demo — Crestview Post-Acute",
+    "start": "2026-06-10T10:00:00-07:00",
+    "calendar_owner": "rep@alleviatehealth.care"
+  },
+
+  "company": {
+    "name": "Crestview Post-Acute Care",
+    "domain": "crestviewpostacute.com",
+    "website": "https://www.crestviewpostacute.com",
+    "linkedin": "https://www.linkedin.com/company/crestview-post-acute",
+    "employee_count": 240,
+    "facility_type": "Skilled nursing facility (multi-site operator)",
+    "specialties": ["Post-acute rehab", "Wound care", "Long-term care"],
+    "location": "Sacramento, CA",
+    "summary": "Crestview operates six skilled nursing facilities across Northern California, focused on post-acute rehab and long-term care. Family-owned, recently expanding through acquisition of single-site operators.",
+    "attio_url": "https://app.attio.com/example/company/placeholder",
+    "net_new": false
+  },
+
+  "attendees": [
+    {
+      "email": "dwhitfield@crestviewpostacute.com",
+      "name": "Dana Whitfield",
+      "title": "VP of Clinical Operations",
+      "linkedin": "https://www.linkedin.com/in/example-dana-whitfield"
+    },
+    {
+      "email": "mortiz@crestviewpostacute.com",
+      "name": "Marcus Ortiz",
+      "title": "Regional Administrator",
+      "linkedin": null
+    },
+    {
+      "email": "jt@crestviewpostacute.com",
+      "name": null,
+      "title": null,
+      "linkedin": null
+    }
+  ],
+
+  "news": [
+    {
+      "date": "2026-04-22",
+      "headline": "Crestview acquires two-facility operator Valley Oak Care Centers",
+      "url": "https://example.com/news/crestview-valley-oak"
+    },
+    {
+      "date": "2026-02-10",
+      "headline": "Crestview announces partnership with regional ACO for post-acute transitions",
+      "url": "https://example.com/news/crestview-aco"
+    }
+  ],
+
+  "history": {
+    "last_touch": {
+      "date": "2026-05-28",
+      "summary": "Intro call with Dana Whitfield; asked for pricing on wound-care module, requested this demo."
+    },
+    "deal": {
+      "stage": "Demo Scheduled",
+      "owner": "rep@alleviatehealth.care",
+      "attio_url": "https://app.attio.com/example/deal/placeholder"
+    },
+    "email_threads": {
+      "count": 7,
+      "people": ["Dana Whitfield", "Marcus Ortiz"]
+    }
+  }
+}

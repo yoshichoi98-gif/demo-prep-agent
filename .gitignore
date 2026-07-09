@@ -1,0 +1,16 @@
+# --- Python / OS ---
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# --- Keep REAL prospect/CRM data out of git ---
+# Everything in briefs/ and fixtures/ is ignored EXCEPT the fictional examples.
+briefs/*
+fixtures/*
+!briefs/2026-06-10-crestview-post-acute-care.md
+!fixtures/example_demo.json
+
+# Local dev handoff note references a real prospect by name — excluded.
+RESUME_HERE.md

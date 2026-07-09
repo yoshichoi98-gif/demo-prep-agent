@@ -1,0 +1,22 @@
+{
+  "org_domains": ["alleviatehealth.care"],
+  "event_title_match": "demo",
+  "output_dir": "briefs",
+  "news_max_bullets": 5,
+
+  "attio": {
+    "_comment": "DISCOVERY: fill these in once confirmed from the Attio workspace. Phase 1 does not call Attio; these are placeholders for Phase 2+.",
+    "company_domain_slug": "TODO",
+    "employee_count_slug": "TODO",
+    "facility_type_slug": "TODO",
+    "specialties_slug": "TODO",
+    "summary_slug": "TODO",
+    "linkedin_slug": "TODO"
+  },
+
+  "slack": {
+    "_comment": "DISCOVERY: target channel + webhook. Phase 2.",
+    "webhook_url": "TODO",
+    "channel": "TODO"
+  }
+}
